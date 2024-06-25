@@ -41,5 +41,12 @@ public class Main {
         System.out.println("Разница в весе боксеров: " + differenceOfWeight);
         var remainder = secondBoxer % firstBoxer;
         System.out.println("Остаток от деления между двумя весами: " + remainder);
+        var totalTime = 640;
+        var employeeTime = 8;
+        var numberOfEmployees = totalTime / employeeTime;
+        System.out.println("В компании, при проекте, требующим " + totalTime + " часов, в который каждый сотрудник вкладывает " + employeeTime + " часов, работает " + numberOfEmployees + " сотрудников");
+        numberOfEmployees = numberOfEmployees + 94;
+        employeeTime = totalTime / numberOfEmployees;
+        System.out.println("Если в компании работает " + numberOfEmployees + " человека, то всего " + employeeTime + " часа работы может быть поделено между сотрудниками");
     }
 }
